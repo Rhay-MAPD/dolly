@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Retrô - Jogos Antigos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Arcade Retrô</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#consoles">Consoles</a></li>
+                <li><a href="#jogos">Jogos Clássicos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Reviva a Magia dos Jogos Antigos!</h2>
+                <p>Descubra ou redescubra os clássicos que marcaram gerações.</p>
+                <a href="#jogos" class="button">Explorar Jogos</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="container">
+            <h2>Sobre o Arcade Retrô</h2>
+            <p>Este é o seu portal definitivo para o universo dos jogos antigos. Aqui, celebramos a história, a nostalgia e a diversão dos videogames que moldaram a indústria. De fliperamas clássicos a consoles icônicos, mergulhe conosco nessa jornada nostálgica!</p>
+            <p>Nossa missão é manter viva a memória desses títulos atemporais, compartilhando informações, curiosidades e a emoção de jogar novamente aqueles games que nos fizeram sonhar.</p>
+        </section>
+
+        <section id="consoles" class="container">
+            <h2>Consoles Icônicos</h2>
+            <div class="console-grid">
+                <div class="console-card">
+                    <img src="https://via.placeholder.com/150/0000FF/FFFFFF?text=NES" alt="Nintendo Entertainment System">
+                    <h3>NES</h3>
+                    <p>O console que revolucionou a indústria e trouxe Mário para o mundo.</p>
+                </div>
+                <div class="console-card">
+                    <img src="https://via.placeholder.com/150/FF0000/FFFFFF?text=Mega+Drive" alt="Mega Drive">
+                    <h3>Mega Drive</h3>
+                    <p>A máquina da Sega que trouxe Sonic para competir com a Nintendo.</p>
+                </div>
+                <div class="console-card">
+                    <img src="https://via.placeholder.com/150/00FF00/FFFFFF?text=SNES" alt="Super Nintendo Entertainment System">
+                    <h3>SNES</h3>
+                    <p>Considerado por muitos o auge dos consoles de 16 bits, com clássicos como Zelda e Metroid.</p>
+                </div>
+                <div class="console-card">
+                    <img src="https://via.placeholder.com/150/FFFF00/000000?text=Atari+2600" alt="Atari 2600">
+                    <h3>Atari 2600</h3>
+                    <p>Um dos primeiros consoles domésticos de sucesso, com jogos como Pac-Man e Space Invaders.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jogos" class="container">
+            <h2>Jogos Clássicos Inesquecíveis</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <img src="https://via.placeholder.com/100/FF5733/FFFFFF?text=Super+Mario+Bros" alt="Super Mario Bros.">
+                    <h3>Super Mario Bros.</h3>
+                    <p>O encanador mais famoso do mundo em sua primeira grande aventura.</p>
+                </div>
+                <div class="game-item">
+                    <img src="https://via.placeholder.com/100/33FF57/000000?text=The+Legend+of+Zelda" alt="The Legend of Zelda">
+                    <h3>The Legend of Zelda</h3>
+                    <p>A saga épica de Link para salvar a Princesa Zelda em Hyrule.</p>
+                </div>
+                <div class="game-item">
+                    <img src="https://via.placeholder.com/100/3357FF/FFFFFF?text=Sonic+the+Hedgehog" alt="Sonic the Hedgehog">
+                    <h3>Sonic the Hedgehog</h3>
+                    <p>O ouriço azul mais rápido do mundo em suas corridas contra o Dr. Robotnik.</p>
+                </div>
+                <div class="game-item">
+                    <img src="https://via.placeholder.com/100/FF33E9/FFFFFF?text=Street+Fighter+II" alt="Street Fighter II">
+                    <h3>Street Fighter II</h3>
+                    <p>O jogo de luta que definiu um gênero e marcou uma era nos arcades.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Fale Conosco!</h2>
+            <p>Tem alguma sugestão, dúvida ou quer compartilhar sua paixão por jogos antigos? Entre em contato conosco!</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Arcade Retrô. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
